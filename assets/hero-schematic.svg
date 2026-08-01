@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 680" role="img" aria-labelledby="title desc">
+<title id="title">Neural control of breathing and brain–body interaction</title>
+<desc id="desc">An original stylised figure showing a mouse head and brainstem network, rhythmic neural activity, lungs, bodily signals and distributed brain regions.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eef4f1"/></linearGradient>
+  <linearGradient id="lung" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e77867"/><stop offset="1" stop-color="#bd4337"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#102c32" flood-opacity=".10"/></filter>
+</defs>
+<rect x="15" y="15" width="690" height="650" rx="48" fill="url(#bg)" stroke="#d8e2de"/>
+
+<!-- mouse / brain -->
+<g transform="translate(72 75)" filter="url(#shadow)">
+  <path d="M142 25c-37-10-80 3-102 34C15 94 18 143 42 176c16 22 41 37 70 42l12 35 50-17c36-13 62-45 67-83 5-43-16-85-52-107-14-9-30-15-47-21z" fill="#fff" stroke="#9ab0aa" stroke-width="3"/>
+  <circle cx="57" cy="51" r="25" fill="#f7f8f5" stroke="#9ab0aa" stroke-width="3"/>
+  <circle cx="161" cy="40" r="28" fill="#f7f8f5" stroke="#9ab0aa" stroke-width="3"/>
+  <path d="M217 105c30 2 53 12 69 29-29-2-50-7-67-17" fill="#fff" stroke="#9ab0aa" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="194" cy="92" r="4" fill="#101b2c"/>
+  <path d="M216 119c11 4 21 11 30 20" fill="none" stroke="#9ab0aa" stroke-width="2"/>
+  <path d="M214 124c15 1 29 5 43 13M214 130c14 5 27 12 38 21" fill="none" stroke="#9ab0aa" stroke-width="1.5"/>
+  <path d="M74 102c23-37 79-48 116-19 35 28 40 79 10 111-14 15-31 23-51 26-22 2-42-5-59-19-29-25-36-66-16-99z" fill="#dbe9e5" stroke="#087b78" stroke-width="3"/>
+  <path d="M130 123c8 10 9 24 2 36-6 10-5 23 2 34" fill="none" stroke="#dc5947" stroke-width="9" stroke-linecap="round"/>
+  <text x="145" y="171" fill="#5c6878" font-family="Arial, sans-serif" font-size="12">brainstem</text>
+</g>
+
+<!-- enlarged microcircuit -->
+<g transform="translate(425 68)">
+  <circle cx="106" cy="105" r="101" fill="#fff" stroke="#9db5ae" stroke-width="3" stroke-dasharray="7 8"/>
+  <g stroke="#7da39a" stroke-width="2" opacity=".8">
+    <path d="M31 94L73 55 111 91 152 48 183 94M29 119l46 23 36-51 48 51 31-32M73 55l2 87M111 91l0 58M152 48l7 94M31 94l79 55M183 94l-108 48"/>
+  </g>
+  <g fill="#087b78"><circle cx="31" cy="94" r="8"/><circle cx="73" cy="55" r="9"/><circle cx="111" cy="91" r="10"/><circle cx="152" cy="48" r="8"/><circle cx="183" cy="94" r="9"/><circle cx="75" cy="142" r="8"/><circle cx="111" cy="149" r="8"/><circle cx="159" cy="142" r="9"/></g>
+  <g fill="#dc5947"><circle cx="51" cy="119" r="6"/><circle cx="137" cy="119" r="6"/><circle cx="177" cy="122" r="5"/></g>
+  <path d="M18 190h26c12 0 12-31 24-31s12 59 27 59 13-42 29-42 13 23 27 23 14-51 28-51 15 42 27 42h24" fill="none" stroke="#dc5947" stroke-width="4" stroke-linecap="round"/>
+  <text x="52" y="242" fill="#101b2c" font-family="Arial, sans-serif" font-weight="700" font-size="16">preBötC dynamics</text>
+</g>
+
+<!-- connector -->
+<path d="M335 245C389 236 414 210 448 174" fill="none" stroke="#087b78" stroke-width="2.5" stroke-dasharray="7 8"/>
+
+<!-- lungs and pathway -->
+<g transform="translate(230 365)" filter="url(#shadow)">
+  <path d="M126 7v75" stroke="#101b2c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M126 48c-26 8-42 23-51 46M126 48c26 8 42 23 51 46" fill="none" stroke="#101b2c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M104 68C66 68 31 99 24 145c-5 35 11 78 44 88 20 6 39-5 49-23 8-15 10-36 10-60V74c-7-4-15-6-23-6z" fill="url(#lung)" opacity=".92"/>
+  <path d="M148 68c38 0 73 31 80 77 5 35-11 78-44 88-20 6-39-5-49-23-8-15-10-36-10-60V74c7-4 15-6 23-6z" fill="url(#lung)" opacity=".92"/>
+  <path d="M52 138c18-12 37-16 56-12M200 138c-18-12-37-16-56-12" fill="none" stroke="#f8c4bc" stroke-width="3"/>
+</g>
+
+<!-- motor pathway -->
+<path d="M257 287c16 42 43 68 89 89" fill="none" stroke="#466c9b" stroke-width="6" stroke-linecap="round"/>
+<circle cx="257" cy="287" r="7" fill="#466c9b"/>
+<circle cx="346" cy="376" r="7" fill="#466c9b"/>
+
+<!-- distributed states -->
+<g transform="translate(487 365)">
+  <path d="M54 17c44 0 80 36 80 80 0 25-12 48-31 63-10 8-16 21-16 34v22H34v-22c0-13-6-26-16-34C-1 145-13 122-13 97-13 53 10 17 54 17z" fill="#fff" stroke="#9db5ae" stroke-width="3"/>
+  <g stroke="#90a8a1" stroke-width="2">
+    <path d="M11 70l35-20 42 24 30-16M46 50l10 52 32-28M11 70l45 32 47 10M56 102l-22 49M56 102l31 49"/>
+  </g>
+  <g fill="#d6a24a"><circle cx="11" cy="70" r="7"/><circle cx="46" cy="50" r="7"/><circle cx="88" cy="74" r="7"/><circle cx="118" cy="58" r="6"/><circle cx="56" cy="102" r="8"/><circle cx="103" cy="112" r="6"/><circle cx="34" cy="151" r="6"/><circle cx="87" cy="151" r="6"/></g>
+  <text x="4" y="249" fill="#101b2c" font-family="Arial, sans-serif" font-weight="700" font-size="16">brain &amp; body states</text>
+</g>
+<path d="M466 481c24-8 41-14 61-29" fill="none" stroke="#d6a24a" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<path d="M531 390C490 340 437 326 390 331" fill="none" stroke="#d6a24a" stroke-width="2.5" stroke-dasharray="7 8"/>
+
+<!-- labels -->
+<g font-family="Arial, sans-serif" font-size="13" fill="#5c6878">
+  <text x="90" y="335">rhythm generation</text>
+  <text x="253" y="640">breathing movement</text>
+  <text x="478" y="640">distributed modulation</text>
+</g>
+</svg>

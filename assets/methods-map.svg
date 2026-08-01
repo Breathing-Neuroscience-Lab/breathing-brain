@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" role="img" aria-labelledby="title desc">
+<title id="title">Methods connected across scales</title><desc id="desc">Cells, circuits, behaviour and theory are connected through experimental methods.</desc>
+<circle cx="310" cy="310" r="265" fill="#f8fbf9" stroke="#c9d8d3" stroke-width="2"/>
+<circle cx="310" cy="310" r="188" fill="none" stroke="#c9d8d3" stroke-width="2" stroke-dasharray="5 8"/>
+<circle cx="310" cy="310" r="95" fill="#101b2c"/>
+<text x="310" y="300" text-anchor="middle" fill="#fff" font-family="Arial" font-weight="700" font-size="20">BREATHING</text>
+<text x="310" y="330" text-anchor="middle" fill="#a6e0d8" font-family="Arial" font-size="15">as a circuit problem</text>
+<g fill="none" stroke="#87a79f" stroke-width="3">
+  <path d="M310 215V120M390 260l88-48M398 352l85 51M310 405v95M222 352l-85 51M230 260l-88-48"/>
+</g>
+<g font-family="Arial" text-anchor="middle">
+  <g transform="translate(310 85)"><circle r="58" fill="#fff" stroke="#087b78" stroke-width="3"/><circle cx="-15" cy="-7" r="7" fill="#087b78"/><circle cx="17" cy="7" r="7" fill="#dc5947"/><path d="M-15-7L17 7M-15-7L3-25M17 7L27-19" stroke="#77978f" stroke-width="2"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">CELLS</text></g>
+  <g transform="translate(510 185)"><circle r="58" fill="#fff" stroke="#466c9b" stroke-width="3"/><path d="M-31 8h18c7 0 6-32 16-32s10 57 23 57 10-26 28-26" fill="none" stroke="#466c9b" stroke-width="4"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">DYNAMICS</text></g>
+  <g transform="translate(510 435)"><circle r="58" fill="#fff" stroke="#d6a24a" stroke-width="3"/><path d="M-20-30c-18 18-17 49 2 65M20-30c18 18 17 49-2 65" fill="none" stroke="#d6a24a" stroke-width="7" stroke-linecap="round"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">BEHAVIOUR</text></g>
+  <g transform="translate(310 535)"><circle r="58" fill="#fff" stroke="#087b78" stroke-width="3"/><path d="M-27 22c16-44 31-43 40-3s22 26 36-9" fill="none" stroke="#087b78" stroke-width="4"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">THEORY</text></g>
+  <g transform="translate(110 435)"><circle r="58" fill="#fff" stroke="#dc5947" stroke-width="3"/><path d="M0-32v26M0-6c-20 4-34 20-34 40M0-6c20 4 34 20 34 40" fill="none" stroke="#dc5947" stroke-width="7" stroke-linecap="round"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">PHYSIOLOGY</text></g>
+  <g transform="translate(110 185)"><circle r="58" fill="#fff" stroke="#466c9b" stroke-width="3"/><path d="M-30 20C-7-24 10-25 34 20" fill="none" stroke="#466c9b" stroke-width="4"/><circle cx="-18" cy="1" r="5" fill="#dc5947"/><circle cx="0" cy="-13" r="5" fill="#dc5947"/><circle cx="18" cy="1" r="5" fill="#dc5947"/><text y="83" fill="#101b2c" font-weight="700" font-size="15">OPTICS</text></g>
+</g>
+</svg>
