@@ -1,67 +1,30 @@
-# Breathing–Brain website: launch checklist
+# Breathing Neuroscience Laboratory website — Canva-inspired version
 
-This is a self-contained static website. It has no database, no build step, and no external font or JavaScript dependency.
+This folder is a static website that can be uploaded directly to GitHub Pages.
 
-## Five-minute preview
+## What changed
 
-Open `index.html` in a browser. For a more accurate local preview, run:
+- The page structure and visual hierarchy now follow the supplied Canva concept: a white institutional masthead, full-width microscopy hero, large editorial section headings, black publication and people sections, and a teal contact/footer area.
+- The design is adapted rather than copied exactly, and remains responsive on phones and tablets.
+- The BML logo is used in the masthead and footer.
+- Laboratory microscopy is used throughout:
+  - `assets/hero-fluorescent-slice.jpg` — landing page
+  - `assets/dual-patch.jpg` — dendritic computation
+  - `assets/fluorescent-neurons.jpg` — cell-type-specific circuit mapping
+  - `assets/paired-patch-fluorescent.jpg` — inspiratory circuit physiology
 
-```bash
-python3 -m http.server 8000
-```
+## Editing people and publications
 
-Then visit `http://localhost:8000`.
+Open `js/site-data.js`. Team cards and publication entries are generated from that file.
 
-## Essential edits before public launch
+## Adding a PI portrait
 
-1. **Verify the PI email** in `index.html`. It is currently set to `sufyan@ncbs.res.in`.
-2. **Replace the portrait placeholder**: save the final image as `assets/sufyan-ashhad.jpg`; then change `assets/pi-placeholder.svg` to `assets/sufyan-ashhad.jpg` in `index.html`.
-3. **Add lab members** in `js/site-data.js`. Copy the commented example object once per member. Create `assets/people/` and place their square or portrait photographs there.
-4. **Review research wording**, especially work not yet public. Remove, soften, or add “ongoing work” where appropriate.
-5. **Update publications** in `js/site-data.js`. The current list is selected rather than exhaustive.
-6. **Replace the social sharing card if desired**. `assets/social-card.svg` is original and usable, but some social platforms prefer a 1200 × 630 PNG or JPEG.
-7. **Institutional identity**: obtain permission before adding NCBS/TIFR logos. The supplied site uses text links only.
+Replace `assets/pi-placeholder.svg` with a web-sized portrait and update the two matching image paths in `index.html`.
 
-## Recommended material to collect
+## Institutional logos
 
-- High-resolution PI portrait, preferably vertical and uncluttered.
-- One current group photograph.
-- Individual member portraits and 25–40 word project descriptions.
-- Three to six original scientific images: slice/recording view, holographic spots, electrophysiology traces, brainstem circuit schematic, in vivo setup, and human tracing/breathing setup.
-- Final lab roster with role, project, start year, degree programme, and optional personal profile link.
-- Updated CV or bibliography including DOI/PMID links and accepted/in-press work.
-- Current vacancies, eligibility, deadline, funding duration, and application instructions.
-- Funding acknowledgements and approved funder logos.
-- Google Scholar, ORCID, Bluesky/X, GitHub, or laboratory code/data links.
-- A short lab-culture statement and any accessibility, inclusion, mentoring, or data-sharing commitments you want public.
+The masthead currently uses text-based NCBS and TIFR affiliation marks so the site is functional without distributing institutional logo files. Approved NCBS/TIFR PNG or SVG files can be added later.
 
-## Deployment choices
+## GitHub Pages update
 
-### A. Existing hosting or cPanel
-Upload **the contents of this folder** into the web root, often named `public_html`, `www`, or `htdocs`. Point `breathing-brain.com` to that hosting account using the DNS records supplied by the host.
-
-### B. Netlify
-Drag this entire folder into Netlify Drop, then add `breathing-brain.com` under Domain management. The included `netlify.toml` adds basic security headers and a custom 404 page.
-
-### C. GitHub Pages
-Create a repository, upload the contents, enable Pages from the main branch, and add a file named `CNAME` containing:
-
-```
-breathing-brain.com
-```
-
-Then configure the registrar DNS records shown by GitHub.
-
-## Domain contact verification: do this first
-
-The domain registration contact must be verified promptly. Prefer signing in directly to the registrar account in a fresh browser tab and completing verification from the account dashboard. Confirm that the email sender and verification domain belong to the registrar before using an email link.
-
-## Useful files
-
-- `index.html` — page content and SEO metadata
-- `css/styles.css` — colours, layout, typography, and responsive design
-- `js/site-data.js` — team and publication entries
-- `js/site.js` — navigation, rendering, and subtle motion
-- `assets/` — original vectors and future photographs
-- `robots.txt` and `sitemap.xml` — basic search-engine discovery
-- `404.html` — custom missing-page screen
+Upload the files inside this folder to the root of the existing `breathing-brain` repository. Keep the repository's existing `CNAME` file if it already contains the live custom domain.
